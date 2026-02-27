@@ -20,21 +20,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Applications\Autenticacao\" />
-    <Folder Include="Applications\Conversoes\" />
-    <Folder Include="Applications\Services\" />
-    <Folder Include="Applications\Regras\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="DTOs\AutenticacaoDto\" />
-    <Folder Include="DTOs\CategoriaDto\" />
-    <Folder Include="DTOs\LogProdutoDto\" />
-    <Folder Include="DTOs\UsuarioDto\" />
-    <Folder Include="DTOs\PromocaoDto\" />
-    <Folder Include="DTOs\ProdutoDto\" />
-    <Folder Include="Exceptions\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>
