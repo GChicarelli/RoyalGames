@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Royal_Games.Domains;
+﻿namespace Royal_Games.Domains;
 
 public partial class Log_AlteracaoJogo
 {

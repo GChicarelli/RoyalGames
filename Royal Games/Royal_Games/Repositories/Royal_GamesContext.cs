@@ -1,6 +1,6 @@
 ﻿namespace Royal_Games.Repositories
 {
-    public class ALTERE
+    internal class Royal_GamesContext
     {
     }
 }
