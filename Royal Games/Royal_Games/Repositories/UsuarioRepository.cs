@@ -4,11 +4,11 @@ using Royal_Games.Interfaces;
 
 namespace Royal_Games.Repositories
 {
-    public class aUsuarioRepository : IUsuarioRepository
+    public class UsuarioRepository : IUsuarioRepository
     {
         public readonly RoyalGamesContext _context;
 
-        public aUsuarioRepository(RoyalGamesContext contex)
+        public UsuarioRepository(RoyalGamesContext contex)
         {
             _context = contex;
         }

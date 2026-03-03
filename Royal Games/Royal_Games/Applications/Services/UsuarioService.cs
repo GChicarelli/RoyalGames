@@ -136,7 +136,7 @@ namespace Royal_Games.Applications.Services
                 throw new DomainException("Usuário não encontrado.");
             }
 
-            _repository.ObterPorId(id);
+            _repository.Remover(id);
         }
     
     }
