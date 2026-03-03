@@ -12,7 +12,7 @@ namespace Royal_Games.DTOs.JogoDto
 
         public IFormFile Imagem { get; set; }
 
-        public List<int> CategoriasIds { get; set; }
+        public List<int> CategoriaIds { get; set; }
 
         public bool? StatusJogo { get; set; }
     }

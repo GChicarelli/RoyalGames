@@ -6,13 +6,13 @@ namespace Royal_Games.Domains
 {
     public class JogoParaDto
     {
-        public string LerJogoDto ConverterParaDto(Jogo jogo)
+        public static LerJogoDto ConverterParaDto(Jogo jogo)
         {
             return new LerJogoDto
             {
                 //Jogo
 
-                JogoID = jogo.JogoID,
+                JogoID = jogo.jogoID,
                 Nome = jogo.Nome,
                 Preco = jogo.Preco,
                 Descricao = jogo.Descricao,

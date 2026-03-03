@@ -1,9 +1,11 @@
-﻿namespace Royal_Games.Interfaces
+﻿using Royal_Games.Domains;
+
+namespace Royal_Games.Interfaces
 {
     public interface ILogAlteracaoJogoRepository
     {
-        List<Log_AlteracaoProduto> Listar();
-        List<Log_AlteracaoProduto> ListarPorProduto(int produtoId);
+        List<Log_AlteracaoJogo> Listar();
+        List<Log_AlteracaoJogo> ListarPorJogo(int jogoId);
 
     }
 }

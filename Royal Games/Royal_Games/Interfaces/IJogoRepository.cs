@@ -10,7 +10,7 @@ namespace Royal_Games.Interfaces
 
         byte[] ObterImagem(int id);
 
-        bool NomeExiste(string nome, int? JogoIdAtual = null);
+        bool NomeExiste(string nome, int? jogoIdAtual = null);
 
         void Adicionar(Jogo jogo, List<int> categoriaIds);
 
