@@ -142,3 +142,14 @@ C:\Users\53695322810\Desktop\Royal Games\Royal_Games\obj\Debug\net8.0\refint\Roy
 C:\Users\53695322810\Desktop\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.pdb
 C:\Users\53695322810\Desktop\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.genruntimeconfig.cache
 C:\Users\53695322810\Desktop\Royal Games\Royal_Games\obj\Debug\net8.0\ref\Royal_Games.dll
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.csproj.AssemblyReference.cache
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.AssemblyInfoInputs.cache
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.AssemblyInfo.cs
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.csproj.CoreCompileInputs.cache
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.sourcelink.json
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.dll
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\refint\Royal_Games.dll
+C:\Users\53695322810\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.pdb

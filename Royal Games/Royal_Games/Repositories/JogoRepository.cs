@@ -18,7 +18,7 @@ namespace Royal_Games.Repositories
         {
             List<Jogo> Jogos = _context.Jogo
 
-           
+
                 .Include(jogo => jogo.Genero)
 
                 .Include(jogo => jogo.Usuario)
@@ -40,10 +40,10 @@ namespace Royal_Games.Repositories
 
         public bool NomeExiste(string nome, int? JogoIdAtual = null)
         {
-       
+
             var JogoConsultado = _context.Jogo.AsQueryable();
 
-   
+
             if (JogoIdAtual.HasValue)
             {
                 JogoConsultado = JogoConsultado.Where(Jogo => Jogo.JogoID != JogoIdAtual.Value);
@@ -99,12 +99,12 @@ namespace Royal_Games.Repositories
                 JogoBanco.StatusJogo = Jogo.StatusJogo;
             }
 
-          
+
             var Generos = _context.Genero
                 .Where(Genero => GeneroIds.Contains(Genero.GeneroID))
                 .ToList();
 
-           JogoBanco.Genero.Clear();
+            JogoBanco.Genero.Clear();
 
             foreach (var Genero in Generos)
             {
@@ -127,3 +127,4 @@ namespace Royal_Games.Repositories
             _context.SaveChanges();
         }
     }
+}
