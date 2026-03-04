@@ -23,6 +23,11 @@ builder.Services.AddDbContext<RoyalGamesContext>(options => options.UseSqlServer
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<UsuarioService>();
 
+// Promoção
+builder.Services.AddScoped<IPromocaoRepository, PromocaoRepository>();
+builder.Services.AddScoped<PromocaoService>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
