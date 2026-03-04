@@ -106,7 +106,7 @@ namespace Royal_Games.Applications.Services
 
             if(promocaoBanco == null)
             {
-                throw new DomainException("Promoção não encontrada.")ç
+                throw new DomainException("Promoção não encontrada.");
             }
 
             _repository.Remover(id);

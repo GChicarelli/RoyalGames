@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\ALTERE.cs" />
     <Compile Remove="Interfaces\ALTERE.cs" />
   </ItemGroup>
 

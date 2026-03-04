@@ -7,4 +7,3 @@
         public bool StatusPromocao { get; set; }
     }
 }
-S
