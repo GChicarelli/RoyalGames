@@ -14,9 +14,9 @@
 
         // Categorias 
 
-        public List<int> CategoriasIds { get; set; }
+        public List<int> GeneroIds { get; set; }
 
-        public List<string> Categoria { get; set; }
+        public List<string> Generos { get; set; }
 
         // Usuario
 

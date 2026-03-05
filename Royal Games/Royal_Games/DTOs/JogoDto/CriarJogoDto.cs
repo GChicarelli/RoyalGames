@@ -10,6 +10,6 @@
 
         public IFormFile Imagem { get; set; }
 
-        public List<int> CategoriaIds { get; set; } = new();
+        public List<int> GeneroIds { get; set; } = new();
     }
 }

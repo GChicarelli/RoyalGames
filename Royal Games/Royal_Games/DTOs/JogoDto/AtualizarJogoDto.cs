@@ -8,11 +8,11 @@ namespace Royal_Games.DTOs.JogoDto
 
         public decimal Preco { get; set; }
 
-        public string Descrição { get; set; }
+        public string Descricao { get; set; }
 
         public IFormFile Imagem { get; set; }
 
-        public List<int> CategoriaIds { get; set; }
+        public List<int> GeneroIds { get; set; }
 
         public bool? StatusJogo { get; set; }
     }

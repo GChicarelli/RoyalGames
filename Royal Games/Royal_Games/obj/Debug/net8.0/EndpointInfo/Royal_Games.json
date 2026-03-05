@@ -114,7 +114,7 @@
                     "type": "string",
                     "format": "binary"
                   },
-                  "CategoriaIds": {
+                  "GeneroIds": {
                     "type": "array",
                     "items": {
                       "type": "integer",
@@ -136,7 +136,7 @@
                 "Imagem": {
                   "style": "form"
                 },
-                "CategoriaIds": {
+                "GeneroIds": {
                   "style": "form"
                 }
               }
@@ -206,7 +206,7 @@
         ],
         "requestBody": {
           "content": {
-            "multpart/form-data": {
+            "multipart/form-data": {
               "schema": {
                 "type": "object",
                 "properties": {
@@ -217,14 +217,14 @@
                     "type": "number",
                     "format": "double"
                   },
-                  "Descrição": {
+                  "Descricao": {
                     "type": "string"
                   },
                   "Imagem": {
                     "type": "string",
                     "format": "binary"
                   },
-                  "CategoriaIds": {
+                  "GeneroIds": {
                     "type": "array",
                     "items": {
                       "type": "integer",
@@ -243,13 +243,13 @@
                 "Preco": {
                   "style": "form"
                 },
-                "Descrição": {
+                "Descricao": {
                   "style": "form"
                 },
                 "Imagem": {
                   "style": "form"
                 },
-                "CategoriaIds": {
+                "GeneroIds": {
                   "style": "form"
                 },
                 "StatusJogo": {
@@ -815,7 +815,7 @@
             "type": "boolean",
             "nullable": true
           },
-          "categoriasIds": {
+          "generoIds": {
             "type": "array",
             "items": {
               "type": "integer",
@@ -823,7 +823,7 @@
             },
             "nullable": true
           },
-          "categoria": {
+          "generos": {
             "type": "array",
             "items": {
               "type": "string"

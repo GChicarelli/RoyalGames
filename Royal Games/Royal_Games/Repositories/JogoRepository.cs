@@ -31,8 +31,6 @@ namespace Royal_Games.Repositories
         {
             Jogo? Jogo = _context.Jogo
                 .Include(jogoDb => jogoDb.Genero)
-                .Include(jogoDb => jogoDb.UsuarioID)
-
             .FirstOrDefault(jogoDb => jogoDb.JogoID == id);
 
             return Jogo;

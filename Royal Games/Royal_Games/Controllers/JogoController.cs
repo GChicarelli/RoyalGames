@@ -74,7 +74,6 @@ namespace Royal_Games.Controllers
             try
             {
                 int usuarioId = obterUsuarioIdLogado();
-                //int classificaoId = jogoDto.ClassicacaoID;
 
                 _service.Adicionar(JogoDto, usuarioId);
                 return StatusCode(201); 
@@ -85,7 +84,7 @@ namespace Royal_Games.Controllers
             }
         }
         [HttpPut("{id}")]
-        [Consumes("multpart/form-data")]
+        [Consumes("multipart/form-data")]
         [Authorize]
         public ActionResult Atualizar(int id, [FromForm] AtualizarJogoDto JogoDto)
         {

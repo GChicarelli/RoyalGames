@@ -60,7 +60,7 @@ namespace Royal_Games.Applications.Services
                 throw new DomainException("Imagem é obrigatória.");
             }
 
-            if (jogoDto.CategoriaIds == null || jogoDto.CategoriaIds.Count() == 0)
+            if (jogoDto.GeneroIds == null || jogoDto.GeneroIds.Count() == 0)
             {
                 throw new DomainException("Jogo deve ter ao menos uma categoria.");
             }
@@ -97,14 +97,14 @@ namespace Royal_Games.Applications.Services
                 UsuarioID = usuarioID
             };
 
-            _repository.Adicionar(jogo, jogoDto.CategoriaIds);
+            _repository.Adicionar(jogo, jogoDto.GeneroIds);
 
             return JogoParaDto.ConverterParaDto(jogo);
         }
 
         public LerJogoDto Atualizar(int id, AtualizarJogoDto jogoDto)
         {
-            HorarioAlteracaoJogo.ValidarHorario();
+            //HorarioAlteracaoJogo.ValidarHorario();
 
             Jogo jogoBanco = _repository.ObterPorID(id);
 
@@ -118,14 +118,14 @@ namespace Royal_Games.Applications.Services
                 throw new DomainException("Produto Deve ter ao menos uma categoria.");
             }
 
-            if (jogoDto.CategoriaIds == null || jogoDto.CategoriaIds.Count() == 0)
+            if (jogoDto.GeneroIds == null || jogoDto.GeneroIds.Count() == 0)
             {
                 throw new DomainException("Produto deve ter ao menos uma categoria.");
             }
 
             jogoBanco.Nome = jogoDto.Nome;
             jogoBanco.Preco = jogoDto.Preco;
-            jogoBanco.Descricao = jogoDto.Descrição;
+            jogoBanco.Descricao = jogoDto.Descricao;
 
             if (jogoDto.Imagem != null && jogoDto.Imagem.Length > 0)
             {
@@ -137,13 +137,13 @@ namespace Royal_Games.Applications.Services
                 jogoBanco.StatusJogo = jogoDto.StatusJogo.Value;
             }
 
-            _repository.Atualizar(jogoBanco, jogoDto.CategoriaIds);
+            _repository.Atualizar(jogoBanco, jogoDto.GeneroIds);
             return JogoParaDto.ConverterParaDto(jogoBanco);
         }
         
         public void Remover (int id)
         {
-            HorarioAlteracaoJogo.ValidarHorario();
+            //HorarioAlteracaoJogo.ValidarHorario();
 
             Jogo jogo = _repository.ObterPorID(id);
 
