@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\54579886860\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{066D7891-29A1-5BCB-E281-52D0EBB97290}|Royal_Games.csproj|c:\\users\\54579886860\\desktop\\royalgames\\royal games\\royal_games\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{066D7891-29A1-5BCB-E281-52D0EBB97290}|Royal_Games.csproj|solutionrelative:interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{066D7891-29A1-5BCB-E281-52D0EBB97290}|Royal_Games.csproj|c:\\users\\54579886860\\desktop\\royalgames\\royal games\\royal_games\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{066D7891-29A1-5BCB-E281-52D0EBB97290}|Royal_Games.csproj|solutionrelative:exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,32 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\54579886860\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\54579886860\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeToolTip": "Interfaces\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T11:25:27.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "DomainException.cs",
               "DocumentMoniker": "C:\\Users\\54579886860\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\Exceptions\\DomainException.cs",
               "RelativeDocumentMoniker": "Exceptions\\DomainException.cs",
               "ToolTip": "C:\\Users\\54579886860\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\Exceptions\\DomainException.cs",
               "RelativeToolTip": "Exceptions\\DomainException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T11:23:01.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Royal_Games.csproj",
               "DocumentMoniker": "C:\\Users\\54579886860\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\Royal_Games.csproj",
               "RelativeDocumentMoniker": "Royal_Games.csproj",
