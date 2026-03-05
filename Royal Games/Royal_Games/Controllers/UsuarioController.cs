@@ -27,12 +27,15 @@ namespace Royal_Games.Controllers
         [HttpGet("{id}")]
         public ActionResult<LerUsuarioDto> ObterPorId(int id)
         {
-            LerUsuarioDto usuario = _service.ObterPorId(id);
-            if (usuario == null)
+            try
             {
-                return NotFound();
-            }
+                LerUsuarioDto usuario = _service.ObterPorId(id);
             return Ok(usuario);
+            }
+            catch (DomainException ex)
+            { 
+                return NotFound(new { mensagem = ex.Message});
+            }
         }
         [HttpGet("email/{email}")]
         public ActionResult<LerUsuarioDto> ObterPorEmail(string email)

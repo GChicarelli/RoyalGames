@@ -310,10 +310,10 @@
         }
       }
     },
-    "/api/LogJogo": {
+    "/api/LogAlteracaoJogo": {
       "get": {
         "tags": [
-          "LogJogo"
+          "LogAlteracaoJogo"
         ],
         "responses": {
           "200": {
@@ -322,10 +322,10 @@
         }
       }
     },
-    "/api/LogJogo/jogo/{id}": {
+    "/api/LogAlteracaoJogo/jogo/{id}": {
       "get": {
         "tags": [
-          "LogJogo"
+          "LogAlteracaoJogo"
         ],
         "parameters": [
           {
@@ -912,6 +912,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Value: Bearer TokenJWT",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

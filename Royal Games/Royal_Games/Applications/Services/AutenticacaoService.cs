@@ -1,7 +1,9 @@
-﻿using Royal_Games.Domains;
+﻿using Royal_Games.Applications.Autenticacao;
+using Royal_Games.Domains;
 using Royal_Games.DTOs.AutenticacaoDto;
 using Royal_Games.Exceptions;
 using Royal_Games.Interfaces;
+
 
 namespace Royal_Games.Applications.Services
 {

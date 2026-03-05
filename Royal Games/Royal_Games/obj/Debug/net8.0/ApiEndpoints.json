@@ -186,9 +186,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Royal_Games.Controllers.LogJogoController",
+    "ContainingType": "Royal_Games.Controllers.LogAlteracaoJogoController",
     "Method": "Listar",
-    "RelativePath": "api/LogJogo",
+    "RelativePath": "api/LogAlteracaoJogo",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -196,9 +196,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Royal_Games.Controllers.LogJogoController",
+    "ContainingType": "Royal_Games.Controllers.LogAlteracaoJogoController",
     "Method": "ListarPorJogo",
-    "RelativePath": "api/LogJogo/jogo/{id}",
+    "RelativePath": "api/LogAlteracaoJogo/jogo/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

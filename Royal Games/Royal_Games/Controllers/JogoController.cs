@@ -74,6 +74,8 @@ namespace Royal_Games.Controllers
             try
             {
                 int usuarioId = obterUsuarioIdLogado();
+                //int classificaoId = jogoDto.ClassicacaoID;
+
                 _service.Adicionar(JogoDto, usuarioId);
                 return StatusCode(201); 
             }

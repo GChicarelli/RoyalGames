@@ -298,3 +298,4 @@ C:\Users\54579886860\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0
 C:\Users\54579886860\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.pdb
 C:\Users\54579886860\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\Royal_Games.genruntimeconfig.cache
 C:\Users\54579886860\Desktop\RoyalGames\Royal Games\Royal_Games\obj\Debug\net8.0\ref\Royal_Games.dll
+C:\Users\54579886860\Desktop\RoyalGames\Royal Games\Royal_Games\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

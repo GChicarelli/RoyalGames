@@ -7,11 +7,11 @@ namespace Royal_Games.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LogJogoController : Controller
+    public class LogAlteracaoJogoController : Controller
     {
         private readonly LogAlteracaoJogoService _service;
 
-        public LogJogoController(LogAlteracaoJogoService service)
+        public LogAlteracaoJogoController(LogAlteracaoJogoService service)
         {
             _service = service;
         }
