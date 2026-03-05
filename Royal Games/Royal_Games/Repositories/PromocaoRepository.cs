@@ -47,7 +47,7 @@ namespace Royal_Games.Repositories
         {
             Promocao? promocaoBanco = _context.Promocao.FirstOrDefault(p => p.PromocaoID == Promocao.PromocaoID);
 
-            if (promocaoBanco != null) 
+            if (promocaoBanco == null) 
             {
                 return;
             }
@@ -62,7 +62,7 @@ namespace Royal_Games.Repositories
         public void Remover(int id)
         {
             Promocao? promocaoBanco = _context.Promocao.FirstOrDefault(p => p.PromocaoID == id);
-            if (promocaoBanco != null)
+            if (promocaoBanco == null)
             {
                 return;
             }

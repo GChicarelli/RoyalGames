@@ -12,7 +12,7 @@ namespace Royal_Games.Controllers
     public class JogoController : ControllerBase
     {
         private readonly JogoService _service;
-        private JogoController(JogoService service)
+        public JogoController(JogoService service)
         {
             _service = service;
         }

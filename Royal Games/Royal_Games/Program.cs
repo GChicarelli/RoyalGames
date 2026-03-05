@@ -54,6 +54,10 @@ builder.Services.AddScoped<PromocaoService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<UsuarioService>();
 
+// Jogo
+builder.Services.AddScoped<IJogoRepository, JogoRepository>();
+builder.Services.AddScoped<JogoService>();
+
 // LogAlteracaoJogo
 builder.Services.AddScoped<ILogAlteracaoJogoRepository, LogAlteracaoJogoRepository>();
 builder.Services.AddScoped<LogAlteracaoJogoService>();
