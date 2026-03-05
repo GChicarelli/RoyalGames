@@ -17,7 +17,7 @@ namespace Royal_Games.DTOs.AutenticacaoDto
             _config = config;
         }
 
-        public string GerarToken(Usuario ususario)
+        public string GerarToken(Usuario usuario)
         {
             var chave = _config["Jwt:key"];
 

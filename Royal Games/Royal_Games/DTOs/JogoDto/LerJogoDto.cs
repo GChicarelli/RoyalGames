@@ -2,7 +2,7 @@
 {
     public class LerJogoDto
     {
-        public string JogoID { get; set; }
+        public int JogoID { get; set; }
 
         public string Nome { get; set; } = null!;
 

@@ -12,21 +12,21 @@ namespace Royal_Games.Domains
             {
                 //Jogo
 
-                JogoID = jogo.jogoID,
+                JogoID = jogo.JogoID,
                 Nome = jogo.Nome,
                 Preco = jogo.Preco,
                 Descricao = jogo.Descricao,
                 StatusJogo = jogo.StatusJogo,
 
-                // Categoria
+                //// Categoria
 
-                CategoriaIds = jogo.Categoria.Select(categoria => categoria.CategoriaID).ToList(),
+                //CategoriaIds = jogo.Categoria.Select(categoria => categoria.CategoriaID).ToList(),
 
-                Categorias = jogo.Categoria.Select(categoria => categoria.Nome).ToList(),
+                //Categorias = jogo.Categoria.Select(categoria => categoria.Nome).ToList(),
 
-                UsuarioID = jogo.UsuarioID,
-                UsuarioNome = jogo.Usuario.Nome,
-                UsuarioEmail = jogo.Usuario.Email
+                //UsuarioID = jogo.UsuarioID,
+                //UsuarioNome = jogo.Usuario.Nome,
+                //UsuarioEmail = jogo.Usuario.Email
             };
         }
     }
