@@ -69,12 +69,13 @@ namespace Royal_Games.Applications.Services
 
         public LerUsuarioDto ObterPorEmail(string email)
         {
-            Usuario usuario = _repository.ObterPorEmail(email);
+            Usuario? usuario = _repository.ObterPorEmail(email);
 
             if(usuario == null)
             {
                 throw new DomainException("Usuário não existe.");
             }
+
             return LerDto(usuario);
         }
 
@@ -112,7 +113,7 @@ namespace Royal_Games.Applications.Services
             }
             ValidarEmail(usuarioBanco.Email);
 
-            Usuario usuarioComMesmoEmail = _repository.ObterPorId(id);
+            Usuario usuarioComMesmoEmail = _repository.ObterPorEmail(usuarioDto.Email);
 
             if (usuarioComMesmoEmail != null && usuarioComMesmoEmail.UsuarioID != id)
             {

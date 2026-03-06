@@ -104,7 +104,7 @@ namespace Royal_Games.Applications.Services
 
         public LerJogoDto Atualizar(int id, AtualizarJogoDto jogoDto)
         {
-            //HorarioAlteracaoJogo.ValidarHorario();
+            HorarioAlteracaoJogo.ValidarHorario();
 
             Jogo jogoBanco = _repository.ObterPorID(id);
 
@@ -143,7 +143,7 @@ namespace Royal_Games.Applications.Services
         
         public void Remover (int id)
         {
-            //HorarioAlteracaoJogo.ValidarHorario();
+            HorarioAlteracaoJogo.ValidarHorario();
 
             Jogo jogo = _repository.ObterPorID(id);
 

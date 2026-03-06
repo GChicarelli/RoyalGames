@@ -18,15 +18,15 @@ namespace Royal_Games.Domains
                 Descricao = jogo.Descricao,
                 StatusJogo = jogo.StatusJogo,
 
-                //// Categoria
+                // Categoria
 
-                //CategoriaIds = jogo.Categoria.Select(categoria => categoria.CategoriaID).ToList(),
+                GeneroIds = jogo.Genero.Select(categoria => categoria.GeneroID).ToList(),
 
-                //Categorias = jogo.Categoria.Select(categoria => categoria.Nome).ToList(),
+                Generos = jogo.Genero.Select(categoria => categoria.Nome).ToList(),
 
-                //UsuarioID = jogo.UsuarioID,
-                //UsuarioNome = jogo.Usuario.Nome,
-                //UsuarioEmail = jogo.Usuario.Email
+                UsuarioID = jogo.UsuarioID,
+                UsuarioNome = jogo.Usuario?.Nome,
+                UsuarioEmail = jogo.Usuario?.Email
             };
         }
     }

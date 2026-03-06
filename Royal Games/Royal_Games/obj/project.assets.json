@@ -4160,23 +4160,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\allan\\.nuget\\packages\\": {},
+    "C:\\Users\\54579886860\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\allan\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\Royal_Games.csproj",
+      "projectUniqueName": "C:\\Users\\54579886860\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\Royal_Games.csproj",
       "projectName": "Royal_Games",
-      "projectPath": "C:\\Users\\allan\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\Royal_Games.csproj",
-      "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\allan\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\obj\\",
+      "projectPath": "C:\\Users\\54579886860\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\Royal_Games.csproj",
+      "packagesPath": "C:\\Users\\54579886860\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\54579886860\\Desktop\\RoyalGames\\Royal Games\\Royal_Games\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\54579886860\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4185,7 +4185,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
