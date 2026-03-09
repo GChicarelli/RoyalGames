@@ -86,3 +86,44 @@ Para acessar funções administrativas, é necessário obter um token de acesso.
 Endpoints responsáveis pela gestão dos itens da loja.
 
 (`**GET** /api/Jogo `)
+* **Descrição:** Retrona Todos os produtos registrado no banco(ativo ou não no Catálogo).
+* **Response (200 OK):**
+```json
+  {
+		"jogoID": 1,
+		"nome": "Shadow Blade",
+		"preco": 59.90,
+		"descricao": "Jogo de ação com combates rápidos e ambientação sombria.",
+    "Imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAY....",
+		"statusJogo": true,
+		"generoIds": [
+			1
+		],
+		"generos": [
+			"Ação"
+		],
+		"usuarioID": 1,
+		"usuarioNome": "admin",
+		"usuarioEmail": "admin@royalgames.com"
+	}
+```
+
+(`**POST** /api/Jogo/ `)
+* **Descrição:** Adiciona Produtos no Catálogo(Requer Token JWT). 
+
+* **Request Body:**
+```json
+{
+  "jogoID": 1,
+		"nome": "Shadow Blade",
+		"preco": 59.90,
+		"descricao": "Jogo de ação com combates rápidos e ambientação sombria.",
+    "Imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAY....",
+		"generoIds": [
+			1
+		],
+		"generos": [
+			"Ação"
+		]
+}
+```
