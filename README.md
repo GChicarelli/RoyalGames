@@ -66,7 +66,7 @@ Abaixo estão os principais:
 ### Autenticação e Usuário
 Para acessar funções administrativas, é necessário obter um token de acesso.
 
-(`**POST** /api/Autenticacao/login `)
+**POST** (`/api/Autenticacao/login `)
 
 * **Request Body:**
 ```json
@@ -85,7 +85,7 @@ Para acessar funções administrativas, é necessário obter um token de acesso.
 ## Gerenciamento de Produto
 Endpoints responsáveis pela gestão dos itens da loja.
 
-(`**GET** /api/Jogo `)
+**GET** (`/api/Jogo `)
 * **Descrição:** Retrona Todos os produtos registrado no banco(ativo ou não no Catálogo).
 * **Response (200 OK):**
 ```json
@@ -108,7 +108,7 @@ Endpoints responsáveis pela gestão dos itens da loja.
 	}
 ```
 
-(`**POST** /api/Jogo/ `)
+**POST** (`/api/Jogo/ `)
 * **Descrição:** Adiciona Produtos no Catálogo(Requer Token JWT). 
 
 * **Request Body:**
